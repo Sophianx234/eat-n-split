@@ -1,0 +1,162 @@
+:root{
+  --light-yello-color-1: #fef5e6;
+  --orange-deep-color: #ff922b;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  color: #333;
+}
+html{
+  font-size: 62.5%;
+}
+
+.red{
+  color: red;
+}
+.green{
+  color: greenyellow;
+}
+.active{
+  background-color: var(--light-yello-color-1);
+
+}
+.friend-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  border-radius: .8rem;
+  padding-block: 1rem;
+  padding-inline: 1.4rem;
+}
+.name{
+  font-weight: 700;
+
+}
+.btn-add{
+  margin-left: auto;
+  margin-top: 1.2rem;
+}
+
+.btn-add-form{
+  width: 50%;
+  margin-left: auto;
+}
+.friends-container{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.btn{
+  background-color: var(--orange-deep-color);
+  border: none;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: .6rem;
+}
+
+.friend-img{
+  border-radius: 50%;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  max-width: 84rem;
+  margin: 0 auto;
+  margin-top: 5.2rem;
+  gap: 2.8rem;
+}
+
+form{
+  background-color: var(--light-yello-color-1);
+  text-align: center;
+  font-size: 1.4rem;
+  padding-block: 2.4rem;
+  padding-inline: 4.8rem;
+  border-radius: 1.4rem;
+  padding-bottom: 5.8rem;
+  align-self: start;
+}
+.inputs{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 2.8rem;
+
+}
+
+.btn-split{
+  margin-left: auto;
+  padding-inline: 1.8rem;
+}
+
+.form-heading{
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+  line-height: 1.2;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.form label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+}
+
+label input, label select{
+  width: 8.6rem;
+  border-radius: .2rem;
+  padding-block: .4em;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.form-text{
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.add-form label{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-form {
+  padding-block: 2.4rem;
+  padding-inline: 1.4rem;
+  border-radius: 1.4rem;
+  padding-bottom: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 1.8rem;
+}
+
+.add-form input{
+  width: 50%;
+}
+
+.disabled{
+  background-color: #fdeccc;
+}
